@@ -4,11 +4,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+      <div className="App">
+      <h1>BOOM REACT</h1>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Containerize this app and deploy it on AWS!
         </p>
         <a
           className="App-link"

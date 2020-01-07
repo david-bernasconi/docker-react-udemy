@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t bernasconi/docker-react-udemy -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true bernasconi/docker-react-udemy  npm run test

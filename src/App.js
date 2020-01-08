@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Containerize this app and deploy it on AWS!
+          Sympheny first containerized app and deployed on AWS!
         </p>
         <a
           className="App-link"
